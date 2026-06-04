@@ -2,9 +2,9 @@
 
 set -euo pipefail
 
-APT_PACKAGES=(jq ripgrep)
+APT_PACKAGES=()
 SNAP_PACKAGES=(glow)
-REQUIRED_COMMANDS=(jq rg glow)
+REQUIRED_COMMANDS=(glow)
 
 is_installed() {
   local command_name

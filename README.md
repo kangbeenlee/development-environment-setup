@@ -79,12 +79,10 @@ Instead of hard-copying the full plugin set into this repository, the setup inst
 
 ## Install-Only Packages
 
-The `packages` tool is for CLI tools that only need installation and do not require template files or extra apply steps.
+The `packages` tool is for tool packages that only need installation and do not require separate configuration files, template files, or extra apply steps.
 
 It currently installs:
 
-- `jq`
-- `ripgrep`
 - `glow`
 
 Use `packages/tool.sh` to maintain:
